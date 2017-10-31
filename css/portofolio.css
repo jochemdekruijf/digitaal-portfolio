@@ -1,0 +1,83 @@
+*{
+ padding:0; 
+ margin:0;
+}
+
+body{
+ 	background-image:url(../pictures/blauw.jpg);
+  	background-repeat:no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	
+}
+header{
+
+}
+
+nav{
+	background-color:rgba(0,0,153,0.8);
+	list-style:none;
+	width: 100%;
+	height: 50px;
+    position:fixed;
+    text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight:bold;
+}
+nav ul li:hover{
+	background-color:rgb(255,255,255);
+}
+
+
+}
+
+main{
+  
+}
+
+h1{
+	 padding-top: 100px;
+	 text-align:left;
+	 padding-left:150px;
+
+}
+
+#logo{
+	 float:right;
+	 margin-right: 150px;
+	 width:250px;
+	 height:250px; 
+}
+#pf{
+	 float: right;
+	 width: 300px;
+	 height: 300px;
+	 padding-left: 100px;
+}
+p{
+	padding-top: 20px;
+	width:400px;
+	text-align: left;
+	font-size:18px;
+	
+	padding-left: 150px;
+
+}
+.list{
+	
+	width: 200px;
+	height: 200px;
+	text-align:left;
+	padding: 20px;
+	padding-left: 150px;
+	font-size: 18px;
+}
+
+<img id="logo" src="../pictures/davinci-logo.png">
+<img  id="pf" src="../pictures/pf.jpg">
+
