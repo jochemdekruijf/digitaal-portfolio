@@ -1,21 +1,22 @@
 *{
  padding:0; 
  margin:0;
+ font-family: tahoma;
+ 
 }
 
 body{
- 	background-image:url(../pictures/blauw.jpg);
+ 	background-image:url(../pictures/background2.jpg);
   	background-repeat:no-repeat;
   	background-size: cover;
   	position: relative;
-  	
 }
 header{
 
 }
 
 nav{
-	background-color:rgba(0,0,153,0.8);
+	background-color:rgba(26, 60, 155,0.8);
 	list-style:none;
 	width: 100%;
 	height: 50px;
@@ -28,17 +29,19 @@ nav ul li{
 	font-family: tahoma;
 	font-size: 20px;
 	font-weight:bold;
+	text-decoration:none;
+
 }
-nav ul li:hover{
-	background-color:rgb(255,255,255);
+nav ul li:hover a{
+	color:gray
+}
+nav ul li a{
+	color:white;
+	text-decoration:none;
 }
 
 
-}
 
-main{
-  
-}
 
 h1{
 	 padding-top: 100px;
@@ -48,26 +51,48 @@ h1{
 }
 
 #logo{
-	 float:right;
-	 margin-right: 150px;
-	 width:250px;
-	 height:250px; 
+	width:250px;
+	height: 250px;
+	position: absolute;
+	top: 375px;
+	right: 500px;
 }
 #pf{
-	 float: right;
+	 position:absolute;
+	 right:350px;
 	 width: 300px;
 	 height: 300px;
-	 padding-left: 100px;
+	 margin-left: 100px;
+	 border-radius: 20px;
 }
-p{
+.paragraph{
 	padding-top: 20px;
 	width:400px;
 	text-align: left;
-	font-size:18px;
-	
+	font-size:20px;
 	padding-left: 150px;
 
 }
+h2{
+	 padding-top: 50px;
+	 text-align:left;
+	 padding-left:150px;
+	}
+
+ #pic-hobby{
+ 	width: 300px;
+ 	height: 300px;
+ 	position:absolute;
+ 	top:100px;
+ 	right: 150px;
+ 
+ }
+ #pic-beroep{
+ 	position: absolute;
+ 	top: 400px;
+ 	right: 500px;
+
+ }
 .list{
 	
 	width: 200px;
@@ -75,9 +100,58 @@ p{
 	text-align:left;
 	padding: 20px;
 	padding-left: 150px;
-	font-size: 18px;
+	font-size: 20px;
 }
+#hobby{
+	padding-top: 0px;
+}
+.list2{
+padding-right: 150px;
+}
+#lyceum{
+   border: 1px solid white;
+   border-radius:10px;
+ 	position:absolute;
+ 	right: 80px;
+ 	top: 80px;
+ 	width: 350px;
+ 	height: 350px;
+}
+.flex-container{
+ width: 900px;
+ height: 900px;
+ display:flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+ margin: 0 auto;
+ padding-top:50px;
+}
+.box{
+  background-color:#fff;
+  height:400px;
+  width: 400px;
+  margin: 10PX;
+}
+.one{
 
-<img id="logo" src="../pictures/davinci-logo.png">
-<img  id="pf" src="../pictures/pf.jpg">
 
+
+}
+.two{
+
+
+}
+.three{
+
+}
+.four{
+
+}
+.img-flex{
+ width:400px;
+ height:350px;
+}
+.flex-h1{
+ padding: 10px;
+ margin-left: 150px;
+}
